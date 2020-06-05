@@ -14,7 +14,7 @@ port = 22
 fsm_unc = 'unc.fsm'
 fsm_rlo = 'rlo.fsm'
 type_onu = 'ONU_1G'
-interface = 'gpon-olt_1/2/3'
+interface = sys.argv[2]
 time_string = time.ctime()
 
 def rlo_ont_def():
