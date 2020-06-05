@@ -1,0 +1,5 @@
+Value INT (gpon-onu_\S+)
+Value SN (\S+)
+
+Start
+  ^${INT}:\d+\s+${SN}\s+unknown -> Record
